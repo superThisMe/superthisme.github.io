@@ -7,6 +7,10 @@ date:   2014-12-13
 <p class="intro"><span class="dropcap">Y</span>ou'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes! To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
 
 Jekyll also offers powerful support for code snippets:
+<figure>
+	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="">
+	<figcaption>Fig1. - This is an example figcaption</figcaption>
+</figure>
 
 {% highlight ruby %}
 def print_hi(name)
