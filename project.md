@@ -3,7 +3,7 @@ layout: default
 title: My Project
 ---
 
-<div class="post">
+<div class="project">
 	<h1 class="pageTitle">About Long Haul</h1>
 	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="">
 	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
